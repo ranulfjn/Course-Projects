@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+
+<head>
+    <meta charset="UTF-8">
+    <title>United Store | Get in touch</title>
+    <meta name="description" content="Manchester United  merchandise store Contact page">
+    <meta name="author" content="United Store Contact information">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="../icons/image.png" type="image/jpeg">
+    <!--Css file Link-->
+    <link rel="stylesheet" href="../maincss.css">
+    <!--Customized font-->
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@1,300&display=swap"
+        rel="stylesheet">
+    <!-- Social media icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <header>
+        <div>
+            <a href="../index.html">
+                <div>
+                    <img id="img1" src="../icons/logo.PNG" alt="Welcome to Manchester united Store"
+                        title="Welcome to Utdstore.com">
+                </div>
+            </a>
+        </div>
+    </header>
+    <nav>
+        <ul class="nav">
+            <li><a class="navdata" href="../index.html">Home</a></li>
+            <li><a class="navdata" href="../catalogue/catalogue.html">Catalogue</a></li>
+            <li><a class="navdata" href="../table/table.html">Table</a></li>
+            <li><a class="navdata" href="../gallery/gallery.html">Gallery</a></li>
+            <li><a class="navdata" href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="contact-main">
+            <div class="form-style">
+                <form action="submit.html" method="POST">
+                    <fieldset>
+                        <legend>Shipping Information</legend>
+                        <label for="fname">First Name *</label>
+                        <input type="text" id="fname" name="firstname" placeholder="First Name" maxlength="20" required>
+                        <label for="lname">Last Name *</label>
+                        <input type="text" id="lname" name="lastname" placeholder="Last Name" maxlength="20" required>
+                        <div class="radio-buttons">
+                            <label for="male">Male</label>
+                            <input type="radio" id="male" name="gender">
+                        </div>
+                        <div class="radio-buttons">
+                            <label for="female">Female</label>
+                            <input type="radio" id="female" name="gender">
+                        </div>
+                        <div class="contact-address">
+                            <label for="address">Address *</label>
+                            <textarea name="address" id="address" cols="30" rows="10" placeholder="Write your Address"
+                                required>
+                        </textarea>
+                        </div>
+                        <label for="zip">ZIP code *</label>
+                        <input type="text" id="zip" name="zip" placeholder="A1A1A1" required>
+                        <label for="phone">Phone *</label>
+                        <input type="number" id="phone" name="phone" placeholder="111111111" required>
+                        <label for="email">Email *</label>
+                        <input type="email" id="email" required placeholder="Email">
+                        <label for="country">Country</label>
+                        <select name="Country" id="country">
+                            <option value="select">Select</option>
+                            <option value="india">India</option>
+                            <option value="canada">Canada</option>
+                            <option value="france">France</option>
+                            <option value="united states">Unied States</option>
+                            <option value="england">England</option>
+                        </select>
+
+                        <label for="size">Size</label>
+                        <select name="size" id="size">
+                            <option value="select">Select</option>
+                            <option value="S">S</option>
+                            <option value="M">M</option>
+                            <option value="L">L</option>
+                            <option value="XL">XL</option>
+                        </select>
+
+                        <label for="track">Tracking Number</label>
+                        <input type="text" name="track" id="track" placeholder="78963254" maxlength="8">
+                        <label class="checkbox" for="notifications">I agree to get Updates on new items </label>
+                        <input type="checkbox" id="notifications">
+                        <input type="submit" value=Submit>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+        <div class="address-header">
+            <div class="contact-main">
+
+                <div class="map-address"><strong>FIND US AT</strong></div>
+                <ul style>
+                    <li>26 Sir Matt Busby Way</li>
+                    <li>Old Trafford</li>
+                    <li>Stretford</li>
+                    <li>Manchester M16 0RA</li>
+                    <li>United Kingdom</li>
+                    <li><strong> Phone: +1-514789456</strong></li>
+                    <li><strong>Email: enquries@unitedstore.com </strong></li>
+                </ul>
+                <iframe class="map"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1503.5214342803831!2d-2.292600499810649!3d53.46289965144087!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487bae72d3892d35%3A0xf2c80a77a25a0fe9!2sMega%20Store!5e0!3m2!1sen!2sca!4v1595916448455!5m2!1sen!2sca"
+                    width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                    tabindex="0">
+                </iframe>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="container">
+                <ul class="service">
+                    <!-- address -->
+                    <li> <strong>FIND US AT</strong> </li>
+                    <li>26 Sir Matt Busby Way</li>
+                    <li>Old Trafford</li>
+                    <li>Stretford</li>
+                    <li>Manchester M16 0RA</li>
+                    <li>United Kingdom.</li>
+                    <li> Phone: +1-514789456</li>
+                    <li>Email: enquries@unitedstore.com</li>
+                </ul>
+            </div>
+
+            <div class="container">
+                <ul class="service">
+                    <li>
+                        <strong> Customer Service</strong>
+                    </li>
+                    <li>Help</li>
+                    <li>Track Order</li>
+                    <li>Size Chart</li>
+                    <li>90-Day Returns</li>
+                </ul>
+            </div>
+
+            <div class="container">
+                <ul class="social-media">
+                    <li>
+                        <strong> Follow Us</strong>
+                    </li>
+                    <li class="icons"><a href="https://www.facebook.com/manchesterunited" target="_blank"
+                            class="fa fa-facebook" title="Facebook"></a>
+                    </li>
+                    <li class="icons"><a href="https://twitter.com/ManUtd" target="_blank" class="fa fa-twitter"
+                            title="Twitter"></a>
+                    </li>
+                    <li class="icons"><a href="https://www.youtube.com/manutd" target="_blank" class="fa fa-youtube"
+                            title="YouTube"></a></li>
+                    <li class="icons"><a href="https://www.instagram.com/manchesterunited/" target="_blank"
+                            class="fa fa-instagram" title="Instagram"></a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="footer-end"><strong>&copy; Copyright 2020 Fanatics (International) Ltd, Company No. 5933624 whose
+                registered
+                office is at
+                Greengate, Middleton, Manchester, M24 1FD</strong>
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,533 @@
+/*-------------------------INDEX PAGE STARTS----------------------------------*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: Open Sans, sans-serif;
+}
+
+header {
+    background-color: #DB1D24;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+
+#img1 {
+    width: 13%;
+    max-width: 100%;
+    display: block;
+    margin: auto;
+    padding-right: 35px;
+}
+
+/* nav bar style */
+
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #242424;
+}
+
+.nav>li {
+    float: left;
+    width: 20%;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.headline {
+    text-align: center;
+    font-size: 40px;
+    padding: 10px;
+    font-weight: 800;
+    margin: 10px;
+}
+
+.trending {
+    width: 265px;
+}
+
+.retro {
+    width: 100%;
+    max-width: 100%;
+    padding-bottom: 55px;
+}
+
+.home-content-header {
+    font-size: 50px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.home-content {
+    text-align: justify;
+    padding: 20px;
+    padding-bottom: 30px;
+    overflow-y: scroll;
+    font-size: 20px;
+    height: 200px;
+}
+
+.footer {
+    background-color: #f0f3f3;
+    position: relative;
+    width: 100%;
+    padding: 40px;
+    height: 250px;
+    clear: both;
+    color: #242424;
+    max-width: 100%;
+    margin: auto;
+    bottom: 0;
+}
+
+.footer-end {
+    text-align: center;
+    margin: 5px;
+}
+
+/*Custom font usage*/
+
+.footer-end, .home-content, .home-content-header, .headline, .container {
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.container>ul {
+    margin: 10px;
+    list-style: none;
+}
+
+li strong {
+    font-size: 20px;
+}
+
+.container {
+    width: 33.33%;
+    float: left;
+}
+
+.icons {
+    float: left;
+}
+
+/* social media icons style */
+
+.fa {
+    padding: 10px 10px;
+    border-radius: 50%;
+    margin: 5px 5px;
+}
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+
+.fa-instagram {
+    background: #fb3958;
+    color: white;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.video {
+    float: left;
+    margin: 0 15px;
+    width: 640px;
+    height: 350px;
+    margin-bottom: 20px;
+}
+
+.video>iframe {
+    width: 640px;
+    height: 350px;
+}
+
+.video-header {
+    float: left;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.video-header>h4 {
+    margin: 20px;
+}
+
+/*-------------------------INDEX PAGE ENDS----------------------------------*/
+
+/* ------------------------------Catalogue page starts--------------------- */
+
+.Catalogue {
+    color: #242424;
+    text-align: center;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 40px;
+    position: relative;
+    margin: 30px;
+}
+
+hr {
+    color: #e4f1f1;
+}
+
+.catalogue_Images {
+    margin: 22px;
+    border: 2px solid #ccc;
+    float: left;
+    width: 30%;
+    padding: 0;
+}
+
+.catalogue_Images img {
+    width: 220px;
+    margin-left: 90px;
+}
+
+.price-tag, .savings.marked.content {
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+/* price style */
+
+.price-tag {
+    padding: 8px;
+    text-align: center;
+    color: #d52a1a;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+/* savings style */
+
+.savings {
+    color: #2fa50f;
+    padding: 8px;
+    text-align: center;
+}
+
+/*Original price style*/
+
+.marked {
+    text-decoration: line-through;
+    padding: 8px;
+    text-align: center;
+}
+
+.content {
+    padding: 8px;
+    text-align: center;
+}
+
+/* Buy button for product */
+
+.buy {
+    position: relative;
+    margin: 7px 160px;
+    background-color: #242424;
+    color: white;
+    width: 75px;
+    border-radius: 20%;
+}
+
+.buy:hover {
+    background-color: black;
+}
+
+/* ------------------------------Catalogue page starts--------------------- */
+
+/* -------------------------gallery page starts-----------------------------*/
+
+.gallery-main {
+    color: #242424;
+    text-align: center;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 40px;
+    position: relative;
+    margin: 30px;
+}
+
+/*Gallery Images style*/
+
+.gallery_Images {
+    margin: 22px;
+    display: inline-block;
+    width: 20%;
+    padding: 0;
+}
+
+.gallery_Images a>img {
+    width: 100%;
+    border-radius: 15%;
+}
+
+/*Video style*/
+
+.store-video>iframe {
+    width: 75%;
+    height: 450px;
+    margin-bottom: 30px;
+}
+
+.gallery-video-header {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.gallery-video-header>h4 {
+    margin: 20px;
+}
+
+/*---------------------gallery page ends----------------------------*/
+
+/*-----------------contact page starts------------------------------*/
+
+.form-style {
+    float: left;
+    padding: 10px 20px;
+    background: #f4f7f8;
+    margin: 50px 50px;
+    padding: 20px;
+    background: #f4f7f8;
+    border-radius: 8px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    width: 75%;
+}
+
+.form-style label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.form-style input[type="text"], .form-style textarea, .form-style select, .form-style input[type="checkbox"], .form-style input[type="number"], .form-style input[type="email"] {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    border-radius: 4px;
+    font-size: 15px;
+    margin: 0;
+    outline: 0;
+    padding: 10px;
+    width: 100%;
+    background-color: #e8eeef;
+    color: black;
+    margin-bottom: 30px;
+}
+
+fieldset {
+    border: none;
+}
+
+legend {
+    font-size: 22px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.form-style input[type="submit"] {
+    position: relative;
+    display: block;
+    padding: 19px 39px 18px 39px;
+    color: #FFF;
+    margin: 0 auto;
+    background: #242424;
+    font-size: 18px;
+    text-align: center;
+    font-style: normal;
+    width: 100%;
+    border: 1px solid #242424;
+    margin: 10px;
+}
+
+.radio-buttons {
+    float: left;
+    margin: 10px;
+}
+
+.contact-address {
+    clear: left;
+}
+
+.map {
+    margin: 20px 50px;
+    width: 80%;
+}
+
+.contact-main {
+    width: 50%;
+    float: left;
+}
+
+.contact-main ul li {
+    font-family: 'Barlow Condensed', sans-serif;
+    list-style: none;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.map-address {
+    margin-top: 30px;
+    font-size: 40px;
+}
+
+.address-header {
+    margin-top: 10px;
+    text-align: center;
+}
+
+/*-----------------contact page ends------------------------------*/
+
+/*-------------------------Product Page Starts------------------- */
+
+.product-main {
+    display: inline-block;
+    width: 50%;
+}
+
+/*Product image style*/
+
+.product>img {
+    width: 35%;
+}
+
+.product {
+    width: 75%;
+    border: 5px solid #e8eeef;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.details {
+    margin: 10px 250px;
+    text-align: left;
+    font-size: 25px;
+}
+
+.details, .p-style, p, .map-address {
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.p-style {
+    text-decoration: underline;
+    text-align: center;
+    margin: 0 250px;
+    font-size: 30px;
+}
+
+.hr-style {
+    border-top: 5px solid #e8eeef;
+}
+
+p {
+    font-size: 20px;
+    margin: 10px 50px;
+    text-align: justify;
+}
+
+/*Cart button style*/
+
+.cart {
+    margin: 10px auto;
+    background-color: #242424;
+    color: white;
+    width: 200px;
+    padding: 5px;
+    border-radius: 20%;
+}
+
+.cart:hover {
+    background-color: black;
+}
+
+/*Size button style*/
+
+.size {
+    margin: 10px auto;
+    background-color: #242424;
+    color: white;
+    width: 50px;
+    padding: 5px;
+    border-radius: 20%;
+}
+
+.size:hover {
+    background-color: black;
+}
+
+/*-------------------------Contact page ends-------------------------*/
+
+/*--------------------------------Table page starts------------------------*/
+
+caption {
+    margin: 20px;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.table-style {
+    margin: 30px auto;
+    border-collapse: collapse;
+    width: 75%;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.table-style td, .table-style th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.table-style th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #f0f3f3;
+    color: black;
+    font-size: 25px;
+}
+
+.table-style td {
+    text-align: center;
+    font-size: 20px;
+}
+
+.table-style tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.table-style tr:hover {
+    background-color: #ddd;
+}
+
+/*-------------------------------table page ends-----------------*/
